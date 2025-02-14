@@ -106,66 +106,9 @@ if (isset($_POST["submit"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=".\css\registration.css">
     <style>
-        body {
-            background-color: #f8f9fa;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        .container {
-            max-width: 400px;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .form-control {
-            appearance: none;
-            background: #fff url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/img/arrow-down.svg') no-repeat right 10px center;
-            background-size: 12px 12px;
-            padding-right: 40px;
-        }
-        .form-control:focus {
-            outline: none;
-            border-color: #80bdff;
-            box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
-        }
-        .form-label {
-            font-weight: bold;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        .form-btn {
-            display: flex;
-            justify-content: center;
-        }
-        .form-btn input {
-            width: 100%;
-        }
-        .alert {
-            margin-top: 15px;
-        }
-        .password-container {
-            position: relative;
-        }
-        .password-container .eye-icon {
-            position: absolute;
-            top: 70%; /* Adjusted value for better alignment */
-            right: 10px;
-            transform: translateY(-50%);
-            cursor: pointer;
-            width: 24px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 10; /* Ensures the icon is above other elements */
-        }
+
     </style>
 </head>
 <body>
